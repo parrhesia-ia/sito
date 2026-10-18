@@ -1,0 +1,52 @@
+{
+ "legge-elettorale-stabilicum": {
+  "file": "assets/foto/legge-elettorale-stabilicum.jpg",
+  "w": 1600,
+  "h": 1066,
+  "cap": "Palazzo Montecitorio, a Roma, sede della Camera dei deputati.",
+  "artist": "Alexkom000",
+  "page": "https://commons.wikimedia.org/wiki/File:2024-10-11_Rome,_Palazzo_Montecitorio.jpg",
+  "lic": "CC BY 4.0",
+  "licurl": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "dazi-smoot-hawley-1930": {
+  "file": "assets/foto/dazi-smoot-hawley-1930.jpg",
+  "w": 1600,
+  "h": 1284,
+  "cap": "Willis Hawley e Reed Smoot, i due promotori della legge, nell'aprile 1929.",
+  "artist": "National Photo Company Collection",
+  "page": "https://commons.wikimedia.org/wiki/File:Rep._W.C._Hawley,_Reed_Smoot,_4-11-29_LCCN2016843632.jpg",
+  "lic": "Pubblico dominio",
+  "licurl": ""
+ },
+ "taiwan-in-60-secondi": {
+  "file": "assets/foto/taiwan-in-60-secondi.jpg",
+  "w": 1600,
+  "h": 1066,
+  "cap": "Lo Stretto di Taiwan di notte, visto dalla Stazione Spaziale Internazionale: le luci della costa cinese e quelle di Taiwan, separate dal mare.",
+  "artist": "NASA Johnson Space Center",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Taiwan_Strait_separates_China%27s_southeast_coast_from_Taiwan_(iss072e435710).jpg",
+  "lic": "Pubblico dominio",
+  "licurl": ""
+ },
+ "groenlandia-perche-tutti-la-vogliono": {
+  "file": "assets/foto/groenlandia-perche-tutti-la-vogliono.jpg",
+  "w": 1280,
+  "h": 914,
+  "cap": "Iceberg nel fiordo di Ilulissat, nella Groenlandia occidentale.",
+  "artist": "Quintin Soloviev",
+  "page": "https://commons.wikimedia.org/wiki/File:Ilulissat_Icefjord.jpg",
+  "lic": "CC BY 4.0",
+  "licurl": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "suez-canale-crisi-1956": {
+  "file": "assets/foto/suez-canale-crisi-1956.jpg",
+  "w": 1600,
+  "h": 1107,
+  "cap": "Il canale di Suez visto dalla Stazione Spaziale Internazionale nel 2021, durante il blocco della nave Ever Given.",
+  "artist": "NASA JSC ISS image library",
+  "page": "https://commons.wikimedia.org/wiki/File:Ever_Given_in_Suez_Canal_viewed_from_ISS.jpg",
+  "lic": "Pubblico dominio",
+  "licurl": ""
+ }
+}

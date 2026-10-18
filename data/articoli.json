@@ -5,7 +5,8 @@
     "sommario": "Le tariffe Smoot-Hawley e le guerre commerciali di oggi: cosa insegna il precedente.",
     "data": "2026-10-19",
     "data_testo": "19 ottobre 2026",
-    "url": "articoli/dazi-smoot-hawley-1930.html"
+    "url": "articoli/dazi-smoot-hawley-1930.html",
+    "img": "assets/foto/dazi-smoot-hawley-1930.jpg"
   },
   {
     "titolo": "La nuova legge elettorale, in 3 punti",
@@ -13,7 +14,8 @@
     "sommario": "Premio di maggioranza, soglie e preferenze: come funziona lo Stabilicum approvato l'8 ottobre, senza schierarsi.",
     "data": "2026-10-18",
     "data_testo": "18 ottobre 2026",
-    "url": "articoli/legge-elettorale-stabilicum.html"
+    "url": "articoli/legge-elettorale-stabilicum.html",
+    "img": "assets/foto/legge-elettorale-stabilicum.jpg"
   },
   {
     "titolo": "Perché tutti vogliono la Groenlandia",
@@ -22,7 +24,8 @@
     "data": "2026-10-20",
     "data_testo": "martedì 20 ottobre",
     "url": "",
-    "bozza": "groenlandia-perche-tutti-la-vogliono"
+    "bozza": "groenlandia-perche-tutti-la-vogliono",
+    "img": "assets/foto/groenlandia-perche-tutti-la-vogliono.jpg"
   },
   {
     "titolo": "Suez: il canale che ha già fatto cadere un impero",
@@ -31,7 +34,8 @@
     "data": "2026-10-22",
     "data_testo": "giovedì 22 ottobre",
     "url": "",
-    "bozza": "suez-canale-crisi-1956"
+    "bozza": "suez-canale-crisi-1956",
+    "img": "assets/foto/suez-canale-crisi-1956.jpg"
   },
   {
     "titolo": "Taiwan in 60 secondi",
@@ -40,6 +44,7 @@
     "data": "2026-10-23",
     "data_testo": "venerdì 23 ottobre",
     "url": "",
-    "bozza": "taiwan-in-60-secondi"
+    "bozza": "taiwan-in-60-secondi",
+    "img": "assets/foto/taiwan-in-60-secondi.jpg"
   }
 ]

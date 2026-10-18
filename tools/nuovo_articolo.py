@@ -16,7 +16,7 @@ TPL = """<!doctype html>
 <meta name="description" content="{descrizione}">
 <meta property="og:title" content="{titolo}">
 <meta property="og:description" content="{descrizione}">
-<meta property="og:image" content="https://parrhesia-ia.com/assets/og.jpg">
+<meta property="og:image" content="{og_image}">
 <meta property="og:type" content="article">
 <meta name="theme-color" content="#0e0e0e">
 <link rel="icon" href="../assets/favicon.png">
@@ -46,6 +46,7 @@ TPL = """<!doctype html>
   <p class="sum">{sommario}</p>
   <div class="byline"><span class="pill"><i></i> Testo generato con IA, verificato sulle fonti</span><span>{data_testo}</span></div>
 
+{foto_html}
 {corpo_html}
 
   <h2>Fonti</h2>
@@ -68,10 +69,23 @@ TPL = """<!doctype html>
 </html>
 """
 
+def foto_html(slug):
+    """Figura con foto e credito, se la foto è registrata in data/foto.json."""
+    import json
+    p = os.path.join(BASE, "..", "data", "foto.json")
+    m = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    if slug not in m: return "", "https://parrhesia-ia.com/assets/og.jpg"
+    f = m[slug]; lic = html.escape(f["lic"])
+    lic_html = f'<a href="{f["licurl"]}" target="_blank" rel="noopener">{lic}</a>' if f.get("licurl") else lic
+    fig = (f'  <figure class="foto">\n    <img src="../{f["file"]}" alt="{html.escape(f["cap"])}" width="{f["w"]}" height="{f["h"]}" loading="eager">\n'
+           f'    <figcaption>{html.escape(f["cap"])} <span>Foto: {html.escape(f["artist"])}, <a href="{f["page"]}" target="_blank" rel="noopener">Wikimedia Commons</a>, {lic_html}.</span></figcaption>\n  </figure>\n')
+    return fig, f"https://parrhesia-ia.com/{f['file']}"
+
 def scrivi(art):
     fonti_html = "\n".join(
         f'    <li><a href="{html.escape(u)}" target="_blank" rel="noopener">{html.escape(t)}</a></li>' for t, u in art["fonti"])
-    out = TPL.format(titolo=html.escape(art["titolo"]), kicker=html.escape(art["kicker"]), sommario=html.escape(art["sommario"]),
+    fh, og = foto_html(art["slug"])
+    out = TPL.format(foto_html=fh, og_image=og, titolo=html.escape(art["titolo"]), kicker=html.escape(art["kicker"]), sommario=html.escape(art["sommario"]),
                      data_testo=html.escape(art["data_testo"]), descrizione=html.escape(art["descrizione"]),
                      corpo_html=art["corpo_html"], fonti_html=fonti_html)
     path = os.path.join(BASE, art["slug"] + ".html")

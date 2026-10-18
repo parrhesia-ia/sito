@@ -60,14 +60,15 @@
   if (list) {
     var base = list.getAttribute("data-base") || "";
     var limit = parseInt(list.getAttribute("data-limit") || "0", 10);
-    fetch(base + "data/articoli.json").then(function (r) { return r.json(); }).then(function (items) {
+    fetch(base + "data/articoli.json?v=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (items) {
       if (limit) items = items.slice(0, limit);
       list.innerHTML = "";
       items.forEach(function (a) {
         var el = document.createElement(a.url ? "a" : "div");
         el.className = "card reveal" + (a.url ? "" : " soon");
         if (a.url) el.href = base + a.url;
-        el.innerHTML = '<span class="fmt"></span><h3></h3><p></p><span class="meta"></span>';
+        el.innerHTML = (a.img ? '<div class="thumb"><img alt="" loading="lazy"></div>' : '') + '<span class="fmt"></span><h3></h3><p></p><span class="meta"></span>';
+        if (a.img) el.querySelector(".thumb img").src = base + a.img;
         el.querySelector(".fmt").textContent = a.formato;
         el.querySelector("h3").textContent = a.titolo;
         el.querySelector("p").textContent = a.sommario;

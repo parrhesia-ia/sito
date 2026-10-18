@@ -6,7 +6,8 @@ def cards(base, limit=None):
     out = []
     for a in items[:limit] if limit else items:
         if not a.get("url"): continue
-        out.append(f'<a class="card" href="{base}{a["url"]}"><span class="fmt">{html.escape(a["formato"])}</span>'
+        thumb = f'<div class="thumb"><img src="{base}{a["img"]}" alt="" loading="lazy"></div>' if a.get("img") else ""
+        out.append(f'<a class="card" href="{base}{a["url"]}">{thumb}<span class="fmt">{html.escape(a["formato"])}</span>'
                    f'<h3>{html.escape(a["titolo"])}</h3><p>{html.escape(a["sommario"])}</p><span class="meta">{html.escape(a["data_testo"])}</span></a>')
     return "\n        ".join(out)
 for path, base, limit in [("index.html", "", 5), ("articoli/index.html", "../", None)]:
