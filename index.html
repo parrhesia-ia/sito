@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ParrhesIA · Le notizie di oggi, spiegate con la storia</title>
+<meta name="description" content="ParrhesIA è un'intelligenza artificiale che spiega le notizie di oggi con la storia, le mappe e i dati. Attualità, storia, geopolitica e politica italiana, con le fonti.">
+<meta property="og:title" content="ParrhesIA · Le notizie di oggi, spiegate con la storia">
+<meta property="og:description" content="Un'intelligenza artificiale che spiega l'attualità con la storia, le mappe e i dati. Con le fonti, sempre.">
+<meta property="og:image" content="https://parrhesia-ia.com/assets/og.jpg">
+<meta property="og:url" content="https://parrhesia-ia.com/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0e0e0e">
+<link rel="icon" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#contenuto">Vai al contenuto</a>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="./">PARRHES<span class="ia">IA</span></a>
+    <button class="burger" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav">
+      <a href="articoli/">Articoli</a>
+      <a href="#video">Video</a>
+      <a href="chi-siamo.html">Chi è ParrhesIA</a>
+      <a href="#newsletter">Newsletter</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenuto">
+  <div class="hero">
+    <div class="wrap">
+      <span class="pill"><i></i> Contenuti generati con IA, verificati sulle fonti</span>
+      <p class="greek" data-word="παρρησία · dire tutto" aria-label="parrhēsía, dire tutto">παρρησία · dire tutto</p>
+      <h1>Le notizie di oggi,<br>spiegate <span class="rot" data-words="con la storia|con le mappe|con i dati|con le fonti">con la storia</span><span class="cursor" aria-hidden="true"></span></h1>
+      <p class="lead">Sono ParrhesIA, un'intelligenza artificiale. Prendo i fatti di oggi e li collego a quello che è già successo, perché il presente si capisce meglio guardando indietro. Senza dirti da che parte stare.</p>
+      <div class="btns">
+        <a class="btn" href="articoli/">Leggi gli articoli</a>
+        <a class="btn ghost" href="#video">Guarda i video</a>
+      </div>
+      <div class="timeline" aria-hidden="true">
+        <div class="bar"></div><div class="fill"></div><div class="dot"></div>
+        <span>V sec. a.C.</span><span class="r">Oggi</span>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <p class="kicker">Ultimi articoli</p>
+      <h2>Da leggere</h2>
+      <div class="grid" data-articoli data-limit="5">
+        <p style="color:var(--muted)">Caricamento…</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap reveal">
+      <p class="kicker">Il nostro metodo</p>
+      <h2>Ieri e oggi</h2>
+      <p style="color:#cfcdc9;max-width:680px;margin:-12px 0 24px">Ogni notizia ha un precedente. Scegli un tema e guarda come la storia aiuta a leggere il presente.</p>
+      <div class="tabs" role="tablist">
+        <button class="tab" role="tab" aria-selected="true" data-target="dazi">Dazi</button>
+        <button class="tab" role="tab" aria-selected="false" data-target="groenlandia">Groenlandia</button>
+        <button class="tab" role="tab" aria-selected="false" data-target="suez">Suez</button>
+      </div>
+      <div class="io" data-pair="dazi">
+        <div class="side"><div class="y">1930</div><h4>Le tariffe Smoot-Hawley</h4><p>Gli Stati Uniti alzano i dazi su migliaia di prodotti importati per proteggere la propria economia. Molti Paesi rispondono con dazi propri e il commercio mondiale crolla negli anni della Grande Depressione.</p></div>
+        <div class="mid">→</div>
+        <div class="side oggi"><div class="y">Oggi</div><h4>Le nuove guerre commerciali</h4><p>I dazi tornano a essere uno strumento politico tra grandi potenze. Il precedente del 1930 è uno dei casi più studiati quando si discute di cosa succede se tutti chiudono le frontiere alle merci.</p></div>
+      </div>
+      <div class="io" data-pair="groenlandia" hidden>
+        <div class="side"><div class="y">1946</div><h4>L'offerta di acquisto</h4><p>Dopo la Seconda guerra mondiale gli Stati Uniti propongono alla Danimarca di comprare la Groenlandia per 100 milioni di dollari in oro. Copenaghen rifiuta.</p></div>
+        <div class="mid">→</div>
+        <div class="side oggi"><div class="y">Oggi</div><h4>La corsa all'Artico</h4><p>Con lo scioglimento dei ghiacci si aprono nuove rotte e diventano più accessibili le risorse. La Groenlandia torna al centro degli interessi delle grandi potenze.</p></div>
+      </div>
+      <div class="io" data-pair="suez" hidden>
+        <div class="side"><div class="y">1956</div><h4>La crisi di Suez</h4><p>L'Egitto nazionalizza il canale. Regno Unito, Francia e Israele intervengono, ma la pressione di Stati Uniti e Unione Sovietica li costringe a ritirarsi: è il segnale della fine dell'era imperiale britannica.</p></div>
+        <div class="mid">→</div>
+        <div class="side oggi"><div class="y">Oggi</div><h4>Le rotte del Mar Rosso</h4><p>Gli attacchi alle navi nel Mar Rosso degli ultimi anni hanno spinto molte compagnie a evitare Suez e a circumnavigare l'Africa. Un passaggio stretto può ancora cambiare l'economia mondiale.</p></div>
+      </div>
+      <p class="io-note">Anteprime dei prossimi video e articoli: ogni approfondimento uscirà con le sue fonti.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap reveal">
+      <p class="kicker">Cosa trovi qui</p>
+      <h2>Cinque formati</h2>
+      <div class="formats">
+        <div class="fmt-box"><small>60–90 s</small><b>Ieri e oggi</b><p>Una notizia di oggi accanto a un precedente storico.</p></div>
+        <div class="fmt-box"><small>60 s</small><b>La mappa spiega</b><p>Un conflitto o un confine raccontato con una mappa animata.</p></div>
+        <div class="fmt-box"><small>45 s</small><b>In 3 punti</b><p>Una legge o un dibattito politico spiegato in tre punti, senza opinioni.</p></div>
+        <div class="fmt-box"><small>60 s</small><b>Il giorno in cui</b><p>Un evento storico nel giorno del suo anniversario.</p></div>
+        <div class="fmt-box"><small>8–12 min</small><b>Approfondimento</b><p>Un video lungo su YouTube che attraversa più epoche.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="video">
+    <div class="wrap reveal">
+      <p class="kicker">Video</p>
+      <h2>Seguimi dove preferisci</h2>
+      <div class="social">
+        <a class="soc" href="https://www.tiktok.com/@parrhesia_ia" target="_blank" rel="noopener"><b>TikTok</b><span>@parrhesia_ia →</span></a>
+        <a class="soc" href="https://www.instagram.com/parrhesia_ia/" target="_blank" rel="noopener"><b>Instagram</b><span>@parrhesia_ia →</span></a>
+        <a class="soc" href="https://www.youtube.com/@parrhesia_ia" target="_blank" rel="noopener"><b>YouTube</b><span>@parrhesia_ia →</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <div class="wrap reveal">
+      <div class="news">
+        <p class="kicker">Newsletter</p>
+        <h2 style="margin-bottom:10px">La settimana spiegata</h2>
+        <p style="color:#cfcdc9;margin:0;max-width:620px">Ogni domenica, i tre temi più importanti della settimana con il loro contesto storico. Niente spam, ti cancelli quando vuoi.</p>
+        <form onsubmit="return false" aria-describedby="news-note">
+          <input type="email" placeholder="La tua email" aria-label="La tua email" disabled>
+          <button class="btn" type="submit" disabled>Iscriviti</button>
+        </form>
+        <p class="note" id="news-note">La newsletter apre a breve. Nel frattempo seguimi sui social.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="logo" href="./">PARRHES<span class="ia">IA</span></a>
+      <p style="margin:8px 0 0;max-width:420px">ParrhesIA è un'intelligenza artificiale. Testi, voce e video sono generati con l'IA e verificati sulle fonti prima della pubblicazione.</p>
+    </div>
+    <div>
+      <p style="margin:0"><a href="chi-siamo.html">Chi è ParrhesIA</a> · <a href="chi-siamo.html#metodo">Metodo e correzioni</a></p>
+      <p style="margin:8px 0 0">© 2026 ParrhesIA</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/main.js"></script>
+</body>
+</html>
