@@ -8,4 +8,4 @@ Sito statico di [ParrhesIA](https://parrhesia-ia.com), pubblicato con GitHub Pag
 - `data/articoli.json` — elenco degli articoli mostrato in home e in archivio
 - `assets/` — stile, script, icone
 
-Per aggiungere un articolo: creare la pagina in `articoli/` e aggiungere una voce in cima a `data/articoli.json`.
+Per aggiungere un articolo: creare la pagina in `articoli/` (vedi `tools/nuovo_articolo.py`), aggiungere una voce in cima a `data/articoli.json` e lanciare `python3 tools/build.py`.
