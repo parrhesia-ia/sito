@@ -125,7 +125,7 @@ h2{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size
 .box p{margin:0}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:24px 0}
 .stat{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:16px;text-align:center}
-.stat b{display:block;font-family:var(--display);font-weight:900;font-size:44px;line-height:1;color:var(--red)}
+.stat b{display:block;font-family:var(--display);font-weight:900;font-size:clamp(30px,8vw,44px);line-height:1;color:var(--red);overflow-wrap:anywhere}
 .stat span{font-size:13px;color:var(--muted)}
 .seats{margin:26px 0;background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:20px}
 .seats .row{display:flex;align-items:center;gap:12px;margin:10px 0;font-size:14px}
