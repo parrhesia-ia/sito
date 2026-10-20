@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Perché tutti vogliono la Groenlandia",
+    "formato": "La mappa spiega",
+    "sommario": "Dall'offerta di acquisto americana del 1946 alla corsa all'Artico.",
+    "data": "2026-10-20",
+    "data_testo": "20 ottobre 2026",
+    "url": "articoli/groenlandia-perche-tutti-la-vogliono.html",
+    "bozza": "groenlandia-perche-tutti-la-vogliono",
+    "img": "assets/foto/groenlandia-perche-tutti-la-vogliono.jpg"
+  },
+  {
     "titolo": "Dazi: l'America ci ha già provato nel 1930",
     "formato": "Ieri e oggi",
     "sommario": "Le tariffe Smoot-Hawley e le guerre commerciali di oggi: cosa insegna il precedente.",
@@ -16,16 +26,6 @@
     "data_testo": "18 ottobre 2026",
     "url": "articoli/legge-elettorale-stabilicum.html",
     "img": "assets/foto/legge-elettorale-stabilicum.jpg"
-  },
-  {
-    "titolo": "Perché tutti vogliono la Groenlandia",
-    "formato": "La mappa spiega",
-    "sommario": "Dall'offerta di acquisto americana del 1946 alla corsa all'Artico.",
-    "data": "2026-10-20",
-    "data_testo": "martedì 20 ottobre",
-    "url": "",
-    "bozza": "groenlandia-perche-tutti-la-vogliono",
-    "img": "assets/foto/groenlandia-perche-tutti-la-vogliono.jpg"
   },
   {
     "titolo": "Suez: il canale che ha già fatto cadere un impero",
