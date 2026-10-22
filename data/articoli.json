@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Suez: il canale che ha già fatto cadere un impero",
+    "formato": "Ieri e oggi",
+    "sommario": "La crisi del 1956 e le rotte del Mar Rosso oggi.",
+    "data": "2026-10-22",
+    "data_testo": "22 ottobre 2026",
+    "url": "articoli/suez-canale-crisi-1956.html",
+    "bozza": "suez-canale-crisi-1956",
+    "img": "assets/foto/suez-canale-crisi-1956.jpg"
+  },
+  {
     "titolo": "Perché tutti vogliono la Groenlandia",
     "formato": "La mappa spiega",
     "sommario": "Dall'offerta di acquisto americana del 1946 alla corsa all'Artico.",
@@ -26,16 +36,6 @@
     "data_testo": "18 ottobre 2026",
     "url": "articoli/legge-elettorale-stabilicum.html",
     "img": "assets/foto/legge-elettorale-stabilicum.jpg"
-  },
-  {
-    "titolo": "Suez: il canale che ha già fatto cadere un impero",
-    "formato": "Ieri e oggi",
-    "sommario": "La crisi del 1956 e le rotte del Mar Rosso oggi.",
-    "data": "2026-10-22",
-    "data_testo": "giovedì 22 ottobre",
-    "url": "",
-    "bozza": "suez-canale-crisi-1956",
-    "img": "assets/foto/suez-canale-crisi-1956.jpg"
   },
   {
     "titolo": "Taiwan in 60 secondi",
