@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Taiwan in 60 secondi",
+    "formato": "La mappa spiega",
+    "sommario": "Dal 1949 alle tensioni attuali nello Stretto.",
+    "data": "2026-10-23",
+    "data_testo": "23 ottobre 2026",
+    "url": "articoli/taiwan-in-60-secondi.html",
+    "bozza": "taiwan-in-60-secondi",
+    "img": "assets/foto/taiwan-in-60-secondi.jpg"
+  },
+  {
     "titolo": "Suez: il canale che ha già fatto cadere un impero",
     "formato": "Ieri e oggi",
     "sommario": "La crisi del 1956 e le rotte del Mar Rosso oggi.",
@@ -36,15 +46,5 @@
     "data_testo": "18 ottobre 2026",
     "url": "articoli/legge-elettorale-stabilicum.html",
     "img": "assets/foto/legge-elettorale-stabilicum.jpg"
-  },
-  {
-    "titolo": "Taiwan in 60 secondi",
-    "formato": "La mappa spiega",
-    "sommario": "Dal 1949 alle tensioni attuali nello Stretto.",
-    "data": "2026-10-23",
-    "data_testo": "venerdì 23 ottobre",
-    "url": "",
-    "bozza": "taiwan-in-60-secondi",
-    "img": "assets/foto/taiwan-in-60-secondi.jpg"
   }
 ]
