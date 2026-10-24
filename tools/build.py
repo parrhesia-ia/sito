@@ -12,6 +12,10 @@ def cards(base, limit=None):
     return "\n        ".join(out)
 for path, base, limit in [("index.html", "", 5), ("articoli/index.html", "../", None)]:
     p = os.path.join(R, path); s = open(p, encoding="utf-8").read()
-    s = re.sub(r'(<div class="grid" data-articoli[^>]*>)(.*?)(</div>)', lambda m: m.group(1) + "\n        " + cards(base, limit) + "\n      " + m.group(3), s, count=1, flags=re.S)
+    # Sostituisce tutto il contenuto della griglia, fino alla sua chiusura reale (prima di </div></section>).
+    # La vecchia regex si fermava al primo </div>, cioè quello della miniatura, e duplicava le card.
+    s, n = re.subn(r'(<div class="grid" data-articoli[^>]*>)(.*?)(\n      </div>\n    </div>\n  </section>)',
+                   lambda m: m.group(1) + "\n        " + cards(base, limit) + m.group(3), s, count=1, flags=re.S)
+    assert n == 1, f"griglia articoli non trovata in {path}"
     open(p, "w", encoding="utf-8").write(s)
 print("ok", len(items))

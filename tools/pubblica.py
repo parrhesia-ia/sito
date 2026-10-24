@@ -11,7 +11,12 @@ url = f"articoli/{slug}.html"; found = False
 for it in items:
     if it.get("slug") == slug or it.get("url") == url or (not it.get("url") and it.get("bozza") == slug):
         it["url"] = url; it["data_testo"] = data_testo; found = True
-if not found: sys.exit(f"voce non trovata in articoli.json: {slug}")
+if not found:
+    # la scheda della bozza può stare accanto all'HTML, così la home non la mostra come "In arrivo"
+    side = os.path.join(R, "_bozze", slug + ".json")
+    if not os.path.exists(side): sys.exit(f"voce non trovata in articoli.json: {slug}")
+    it = json.load(open(side, encoding="utf-8")); it["url"] = url; it["data_testo"] = data_testo
+    items.append(it); os.remove(side)
 pub = sorted([x for x in items if x["url"]], key=lambda x: x["data"], reverse=True)
 soon = sorted([x for x in items if not x["url"]], key=lambda x: x["data"])
 json.dump(pub + soon, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=2)

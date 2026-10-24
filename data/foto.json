@@ -48,5 +48,15 @@
   "page": "https://commons.wikimedia.org/wiki/File:Ever_Given_in_Suez_Canal_viewed_from_ISS.jpg",
   "lic": "Pubblico dominio",
   "licurl": ""
+ },
+ "decreto-cortei-costituzionale": {
+  "file": "assets/foto/decreto-cortei-costituzionale.jpg",
+  "w": 1600,
+  "h": 1083,
+  "cap": "Palazzo Chigi, a Roma, sede della presidenza del Consiglio dei ministri.",
+  "artist": "DellaGherardesca",
+  "page": "https://commons.wikimedia.org/wiki/File:Palazzo_Chigi_-_esterno.jpg",
+  "lic": "CC BY 4.0",
+  "licurl": "https://creativecommons.org/licenses/by/4.0"
  }
 }
