@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "L'Italia che non arriva a fine mese",
+    "formato": "Attualità",
+    "sommario": "Dai tir fermi al Sud ai saccheggi di Milano, fino alle piazze del 24 ottobre.",
+    "data": "2026-10-25",
+    "data_testo": "25 ottobre 2026",
+    "url": "articoli/italia-non-arriva-a-fine-mese.html",
+    "bozza": "italia-non-arriva-a-fine-mese",
+    "img": "assets/foto/italia-non-arriva-a-fine-mese.jpg"
+  },
+  {
     "titolo": "Il decreto cortei è costituzionale?",
     "formato": "In 4 punti",
     "sommario": "Cosa prevede il decreto in vigore dal 23 ottobre e i quattro punti che dividono i giuristi.",
