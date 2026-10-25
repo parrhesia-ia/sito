@@ -58,5 +58,15 @@
   "page": "https://commons.wikimedia.org/wiki/File:Palazzo_Chigi_-_esterno.jpg",
   "lic": "CC BY 4.0",
   "licurl": "https://creativecommons.org/licenses/by/4.0"
+ },
+ "italia-non-arriva-a-fine-mese": {
+  "file": "assets/foto/italia-non-arriva-a-fine-mese.jpg",
+  "w": 1600,
+  "h": 1068,
+  "cap": "Piazza del Duomo a Milano, punto di partenza del corteo del 17 ottobre. Foto d'archivio, non della giornata.",
+  "artist": "Leonhard Lenz",
+  "page": "https://commons.wikimedia.org/wiki/File:Piazza_del_Duomo_Milano_2022-09-28_02.jpg",
+  "lic": "CC0",
+  "licurl": "https://creativecommons.org/publicdomain/zero/1.0/deed.it"
  }
 }
