@@ -9,3 +9,8 @@ Cartella non pubblicata (GitHub Pages ignora le cartelle che iniziano con `_`). 
 - `fonts/` — Barlow Condensed (OFL).
 
 Colori: fondo #0e0e0e, testo #f0eeea, grigio #9a9a9a, rosso #d62626.
+
+## Pronuncia (testo parlato per ElevenLabs)
+Nel testo parlato le sigle vanno scritte come si leggono; nei sottotitoli restano normali (stesso numero di parole).
+- CGIL → "Cigièlle" (25/10/2026: letta male nel video 08)
+- Numeri e cifre sempre in lettere nel parlato: "ventisette", "due euro e trenta".
