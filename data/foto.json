@@ -68,5 +68,15 @@
   "page": "https://commons.wikimedia.org/wiki/File:Piazza_del_Duomo_Milano_2022-09-28_02.jpg",
   "lic": "CC0",
   "licurl": "https://creativecommons.org/publicdomain/zero/1.0/deed.it"
+ },
+ "brasile-ballottaggio-lula": {
+  "file": "assets/foto/brasile-ballottaggio-lula.jpg",
+  "w": 1600,
+  "h": 1067,
+  "cap": "Il Palácio do Planalto a Brasília, sede della presidenza della Repubblica del Brasile.",
+  "artist": "Senado Federal",
+  "page": "https://commons.wikimedia.org/wiki/File:Fachada_do_Pal%C3%A1cio_do_Planalto.jpg",
+  "lic": "CC BY 2.0",
+  "licurl": "https://creativecommons.org/licenses/by/2.0"
  }
 }
