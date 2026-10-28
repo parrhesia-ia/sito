@@ -88,5 +88,15 @@
   "page": "https://commons.wikimedia.org/wiki/File:Knesset_Israeli_Parliament_Building_(41404889170).jpg",
   "lic": "CC0",
   "licurl": "https://creativecommons.org/publicdomain/zero/1.0/deed.it"
+ },
+ "marcia-su-roma-1922": {
+  "file": "assets/foto/marcia-su-roma-1922.jpg",
+  "w": 1600,
+  "h": 1094,
+  "cap": "Folla in piazza del Quirinale, a Roma, nei giorni della Marcia su Roma (ottobre 1922).",
+  "artist": "autore sconosciuto",
+  "page": "https://commons.wikimedia.org/wiki/File:March_on_Rome_1922_-_Quirinale.jpg",
+  "lic": "Pubblico dominio",
+  "licurl": ""
  }
 }
