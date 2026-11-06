@@ -158,5 +158,15 @@
   "page": "https://commons.wikimedia.org/wiki/File:Giancarlo_Giorgetti_-_Quirinale_2022.jpg",
   "lic": "Attribuzione",
   "licurl": ""
+ },
+ "ucraina-settimana-dei-negoziati": {
+  "file": "assets/foto/ucraina-settimana-dei-negoziati.jpg",
+  "w": 1600,
+  "h": 855,
+  "cap": "La sede della NATO a Bruxelles, dove il 5 novembre si è discusso delle garanzie di sicurezza per l'Ucraina.",
+  "artist": "Ad Meskens",
+  "page": "https://commons.wikimedia.org/wiki/File:Brussels_NATO_Headquarters.jpg",
+  "lic": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0/deed.it"
  }
 }
