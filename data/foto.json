@@ -168,5 +168,15 @@
   "page": "https://commons.wikimedia.org/wiki/File:Brussels_NATO_Headquarters.jpg",
   "lic": "CC BY-SA 4.0",
   "licurl": "https://creativecommons.org/licenses/by-sa/4.0/deed.it"
+ },
+ "cop31-antalya-clima": {
+  "file": "assets/foto/cop31-antalya-clima.jpg",
+  "w": 1600,
+  "h": 1066,
+  "cap": "L'area dell'Expo di Antalya, in Turchia, dove si tiene la COP31.",
+  "artist": "Hendric Stattmann",
+  "page": "https://commons.wikimedia.org/wiki/File:Expo_2016_Antalya_-_West_View.jpg",
+  "lic": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0/deed.it"
  }
 }
