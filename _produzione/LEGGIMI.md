@@ -20,3 +20,7 @@ Colori: fondo #0e0e0e, testo #f0eeea, grigio #9a9a9a, rosso #d62626.
 Nel testo parlato le sigle vanno scritte come si leggono; nei sottotitoli restano normali (stesso numero di parole).
 - CGIL → "Cigièlle" (25/10/2026: letta male nel video 08)
 - Numeri e cifre sempre in lettere nel parlato: "ventisette", "due euro e trenta".
+
+## Pronuncia (segnalato dall'utente il 10/11/2026)
+- La voce sbaglia l'accento di "premier" (video 21). Non usarla nel testo parlato: scrivere "primo ministro" o "capo del governo" (anche nei sottotitoli, così il conteggio delle parole resta uguale).
+- Per ogni parola straniera o con accento dubbio (nomi propri, inglesismi): preferire un equivalente italiano o fare una prova di 1 frase con la voce prima del render completo.
