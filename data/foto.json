@@ -308,5 +308,25 @@
   "page": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson_taking_the_oath_of_office,_November_1963.jpg",
   "lic": "Pubblico dominio",
   "licurl": ""
+ },
+ "cop31-finita-senza-accordo": {
+  "file": "assets/foto/cop31-finita-senza-accordo.jpg",
+  "w": 1600,
+  "h": 1066,
+  "cap": "L'area dell'Expo di Antalya, in Turchia, sede della COP31.",
+  "artist": "Hendric Stattmann",
+  "page": "https://commons.wikimedia.org/wiki/File:Expo_2016_Antalya_-_West_View.jpg",
+  "lic": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0/deed.it"
+ },
+ "manovra-condono-edilizio": {
+  "file": "assets/foto/manovra-condono-edilizio.jpg",
+  "w": 960,
+  "h": 1053,
+  "cap": "Palazzo Montecitorio, a Roma, sede della Camera dei deputati, dove la commissione Bilancio esamina la manovra.",
+  "artist": "DellaGherardesca",
+  "page": "https://commons.wikimedia.org/wiki/File:Palazzo_Montecitorio_-_esterno.jpg",
+  "lic": "CC BY 4.0",
+  "licurl": "https://creativecommons.org/licenses/by/4.0/deed.it"
  }
 }
